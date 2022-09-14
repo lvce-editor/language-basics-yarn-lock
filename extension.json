@@ -1,0 +1,13 @@
+{
+  "id": "builtin.language-basics-yarn-lock",
+  "name": "Language Basics yarn-lock",
+  "description": "Provides syntax highlighting and bracket matching in yarn-lock files.",
+  "languages": [
+    {
+      "id": "yarn-lock",
+      "extensions": [".lock"],
+      "fileNames": ["yarn.lock"],
+      "tokenize": "src/tokenizeYarnLock.js"
+    }
+  ]
+}

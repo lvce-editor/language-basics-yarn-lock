@@ -1,0 +1,3 @@
+some-dependency:
+  version "1.0.0" # comment
+  resolved "https://example.com
